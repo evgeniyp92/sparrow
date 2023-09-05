@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "b612";
+  src: url("../../public/B612-Regular.ttf");
+}
+
+@font-face {
+  font-family: "b612-mono";
+  src: url("../../public/B612Mono-Regular.ttf");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,10 +28,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
