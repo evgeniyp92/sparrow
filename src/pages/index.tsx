@@ -16,7 +16,7 @@ export default function Home() {
         </a>
         <a href='#'>
           <div className='m-4 p-4 min-w-fit w-40 font-b612mono  text-black bg-orange-500'>
-            <p className='text-center'>EMERGENCY</p>
+            <p className='text-center'>NON-NORMAL C/L</p>
           </div>
         </a>
         <a href='#'>
